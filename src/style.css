@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input{
+    @apply border-2 border-primary p-3 rounded-lg block placeholder:text-primary w-full
+}
+.nav{
+    @apply border border-list bg-list rounded-full px-8 py-1
+}
+.header{
+    @apply text-4xl md:text-7xl font-bold capitalize pb-5
+}
+.paragraphy{
+    @apply text-base lg:text-xl font-semibold pb-10
+}
+.btn{
+    @apply bg-primary text-white px-5 md:px-8 py-2 md:py-2 text-sm md:text-base rounded-full capitalize
+}
+.images{
+    @apply rounded-2xl
+}
